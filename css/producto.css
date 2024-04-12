@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/*Estilos para el nav*/
+.navbar {
+    background-color: #000 !important;
+}
+
+.navbar :where(span, li, a) {
+    color: #fff !important;
+}
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    padding: 5px 10px;
+    border: 2px solid #fff !important;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.nav-link.active {
+    background-color: #fff;
+    color: #000 !important;
+    padding: 5px 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-weight: 600;
+}
+
+.dropdown-menu :where(ul, li, a) {
+    color: #000 !important;
+    text-align: center;
+}
+
+.btn-nav {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/*Estilo de productos*/
+.productos{
+    margin-top: 30pxs;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #000;
+    border-radius: 25px;
+    color: #fff;
+    width: 330px;
+    margin: 0 auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.btn-card:hover {
+    background-color: #000;
+    color: #fff;
+}
